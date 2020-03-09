@@ -1,0 +1,82 @@
+#main-header img {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: #262626;
+  font-family: 'Roboto Slab', serif;
+}
+
+#main-header .port-items {
+  width: 30%;
+}
+
+#main-header .port-items:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.card-body-style {
+  background-color: #524f4f;
+  color: whitesmoke;
+}
+
+.modal-text-style {
+  color: black;
+  text-decoration: underline;
+  font-size: large;
+  font-weight: 600;
+}
+
+.bg-color {
+  background-image: url("https://c1.wallpaperflare.com/preview/411/694/389/black-business-computer-desk.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.bg-black {
+  background-color: black;
+  color: white;
+}
+
+.bg-style-1 {
+  background-color: #FFB300;
+  color: #3E79B1;
+}
+
+.bg-style-2 {
+  background-color: #FFFFFF;
+  color: #123C69;
+}
+
+.bg-style-3 {
+  background-color: #95C623;
+  color: black;
+}
+
+.bg-style-4 {
+  background-color: #FCFC62;
+  color: black;
+}
+
+.bg-style-5 {
+  background-color: #EF5B5B;
+  color: black;
+}
+
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.1);
+  box-shadow: 25px 20px 38px 2px rgba(0, 0, 0, 0.75);
+}
+
+@media(min-width:1199px) {
+  .port-items {
+    padding: 3em !important;
+  }
+}
